@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khalil Muhumed - My First HTML Page</title>
+    <style>
+        table.course-table {
+            border-collapse: collapse;
+            width: 60%;
+        }
+        table.course-table th, 
+        table.course-table td {
+            border: 1px solid black;
+            padding: 6px;
+            text-align: left;
+        }
+        table.course-table th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Page</h1>
+    <h2>Khalil Muhumed</h2>
+    <p>
+        Hi! My name is Khalil Muhumed. I’m a Business Information Technology student at Laurea University of Applied Sciences. 
+        I’m passionate about web development, automation, and football coaching. I enjoy learning new technologies and creating simple, efficient projects.
+    </p>
+
+    <img src="images/khalil.jpg" alt="Photo of Khalil Muhumed" width="250">
+
+    <hr>
+
+    <h2>My Hobbies</h2>
+    <ul>
+        <li>Playing and coaching football</li>
+        <li>Coding and building small web apps</li>
+        <li>Learning about cybersecurity</li>
+        <li>Exploring new AI tools</li>
+        <li>Watching documentaries</li>
+    </ul>
+
+    <hr>
+
+    <h2>Favorite Website</h2>
+    <p>Visit my university’s website here: 
+        <a href="https://www.laurea.fi" target="_blank">Laurea University of Applied Sciences</a>
+    </p>
+
+    <hr>
+
+    <h2>My Current Courses</h2>
+    <table class="course-table">
+        <tr>
+            <th>Course Name</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>Web Development Basics</td>
+            <td>Ongoing</td>
+        </tr>
+        <tr>
+            <td>Linux and System Administration</td>
+            <td>Completed</td>
+        </tr>
+        <tr>
+            <td>Process Automation Project</td>
+            <td>In Progress</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>Contact Me</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <hr>
+    <p><em>HTML validated with W3C Validator — no obsolete attributes remaining.</em></p>
+</body>
+</html>
