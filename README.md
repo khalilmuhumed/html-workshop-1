@@ -18,6 +18,3 @@ Workshop 01 - HTML Basics/
 index.html
 images/
 khalil.jpg
-
-## Live Page
-🔗 [View on GitHub Pages](https://YOUR-GITHUB-USERNAME.github.io/html-workshop-1/)
