@@ -14,12 +14,10 @@ A simple webpage built using basic HTML elements:
 - Simple contact form  
 
 ## Folder Structure
+Workshop 01 - HTML Basics/
 index.html
 images/
-└── khalil.jpg
-
-csharp
-Kopioi koodi
+khalil.jpg
 
 ## Live Page
 🔗 [View on GitHub Pages](https://YOUR-GITHUB-USERNAME.github.io/html-workshop-1/)
